@@ -15,12 +15,12 @@ static const char *prompt      = NULL;      /* -p  option; prompt to the left of
 static
 char *colors[][2] = {
 	/*               fg         bg       */
-	[SchemeNorm] = { "#bbbbbb", "#222222" },
-	[SchemeSel]  = { "#eeeeee", "#005577" },
-	[SchemeOut]  = { "#000000", "#00ffff" },
-	[SchemeMid]  = { "#eeeeee", "#770000" },
-	[SchemeSelHighlight]  = { "#ffc978", "#005577" },
-	[SchemeNormHighlight] = { "#ffc978", "#222222" },
+	[SchemeNorm] = { "#A4B9EF", "#1B1923" },
+	[SchemeSel]  = { "#B3E1A3", "#1B1923" },
+	[SchemeOut]  = { "#B3E1A3", "#1B1923" },
+	[SchemeMid]  = { "#A4B9EF", "#1B1923" },
+	[SchemeSelHighlight]  = { "#F7C196", "#1B1923" },
+	[SchemeNormHighlight] = { "#ECBFBD", "#1B1923" },
 	[SchemeHp]   = { "#bbbbbb", "#333333" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
